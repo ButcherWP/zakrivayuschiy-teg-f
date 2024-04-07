@@ -6,7 +6,7 @@
     --font-weight-content-text-card: 700;
     --font-weight-title-text-card: 400;
     --accent-color: #000000;
-    --backgound-color: #FFFFFF; 
+    --backgound-color: #FFFFFF;
 
     --gradient-line-color: #d3d3d3;
     --gradient-saturation-color-1: #e7e7e7;
@@ -21,7 +21,7 @@
          var(--gradient-line-color) 2px,
          rgba(0, 0, 0, 0) 2px,
         rgba(0, 0, 0, 0) 4px
-      );;
+      );
 
     --background-image-vertical: repeating-linear-gradient(
         to right,
@@ -29,11 +29,11 @@
         var(--gradient-line-color) 2px,
         rgba(0, 0, 0, 0) 2px,
        rgba(0, 0, 0, 0) 4px
-     );;
+     );
 
      --background-image-saturation: repeating-linear-gradient(
         var(--gradient-saturation-color-1),
         var(--gradient-saturation-color-2) 
-     );;
+     );
     
 }
