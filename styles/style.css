@@ -157,7 +157,7 @@
   font-weight: 700;
   line-height: 21.78px;
   text-align: left;
-  font-variation-settings: 'wgth' var(--font-weight-content-text-card);
+  font-variation-settings: "wght" var(--font-weight-content-text-card);
 }
 
 .card-image-container {
@@ -175,6 +175,7 @@
   opacity: 50%;
   mix-blend-mode: hard-light;
   text-shadow: 1px 1px var(--text-stroke);
+  font-variation-settings: "wght" var(--font-weight-content-text-card);
 }
 
 @supports (
