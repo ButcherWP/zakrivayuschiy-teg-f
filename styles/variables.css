@@ -1,1 +1,39 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+    --font-face-inter-variable: Inter;
+    --font-face-pressStart2P: PressStart2P;
+    --font-weight-content-text-card: 700;
+    --font-weight-title-text-card: 400;
+    --accent-color: #000000;
+    --backgound-color: #FFFFFF; 
+
+    --gradient-line-color: #d3d3d3;
+    --gradient-saturation-color-1: #e7e7e7;
+    --gradient-saturation-color-2: #1a1a1a;
+    --text-stroke: white;
+    --button-text-color: white;
+    --contour-heart: black;
+    --heart-fill-color: #FF0000;
+
+    --background-image-horizon: repeating-linear-gradient(
+         var(--gradient-line-color) 0,
+         var(--gradient-line-color) 2px,
+         rgba(0, 0, 0, 0) 2px,
+        rgba(0, 0, 0, 0) 4px
+      );;
+
+    --background-image-vertical: repeating-linear-gradient(
+        to right,
+        var(--gradient-line-color) 0,
+        var(--gradient-line-color) 2px,
+        rgba(0, 0, 0, 0) 2px,
+       rgba(0, 0, 0, 0) 4px
+     );;
+
+     --background-image-saturation: repeating-linear-gradient(
+        var(--gradient-saturation-color-1),
+        var(--gradient-saturation-color-2) 
+     );;
+    
+}
