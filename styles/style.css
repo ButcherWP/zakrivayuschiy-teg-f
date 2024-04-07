@@ -24,8 +24,7 @@
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
-  font-variation-settings:
-    'wgth' var(--font-weight-content-text-card);
+  font-variation-settings: 'wgth' var(--font-weight-content-text-card);
 }
 
 .widthAllSections {
@@ -173,9 +172,19 @@
   right: clamp(10px, 3vw, 25px);
   top: 24px;
   opacity: 50%;
-  -webkit-text-stroke: 1px var(--text-stroke);
   mix-blend-mode: hard-light;
+  text-shadow: 1px 1px var(--text-stroke);
 }
+
+@supports (
+  (text-stroke: 1px var(--backgound-color)) or
+    (-webkit-text-stroke: 1px var(--backgound-color))
+) {
+  .card-image-text {
+    text-shadow: none;
+    -webkit-text-stroke: 1px var(--text-stroke);
+   }
+  }
 
 .card-image {
   width: 100%;
