@@ -289,15 +289,15 @@
       </section>
     </main>
     <dialog id="dialog" class="dialog">
-      <form class="form">
         <svg viewBox="0 0 21 21" class="dialog-floppy">
           <use href="./svg/floppy.svg#floppy" />
         </svg>
         <p class="dialog-text">Вставьте дискету, чтобы продолжить</p>
-        <button class="dialog-button">
-          <span class="dialog-button-text">Ок</span>
-        </button>
-      </form>
+        <form method="dialog" class="form">
+          <button class="dialog-button" type="submit">
+            <span class="dialog-button-text">Ок</span>
+          </button>
+        </form>
   </dialog> 
     <script src="./scripts/like.js"></script>
   </body>
