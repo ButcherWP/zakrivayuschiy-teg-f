@@ -6,8 +6,8 @@
 */
 
 :root.theme-light {
-    --font-weight-content-text-card: 700;
-    --font-weight-title-text-card: 400;
+    --font-weight-content-text-card: 400;
+    --font-weight-title-text-card: 700;
     --accent-color: #000000;
     --backgound-color: #FFFFFF;
     --gradient-line-color: #d3d3d3;
@@ -20,8 +20,8 @@
 }
 
 :root.theme-dark {
-    --font-weight-content-text-card: 785;
-    --font-weight-title-text-card: 465;
+    --font-weight-content-text-card: 465;
+    --font-weight-title-text-card: 785;
     --accent-color: #00CC14;
     --backgound-color: #000000;
     --gradient-line-color: #000;
@@ -36,8 +36,8 @@
 @media (prefers-color-scheme: dark) {
 
     :root {
-        --font-weight-content-text-card: 785;
-        --font-weight-title-text-card: 465;
+        --font-weight-content-text-card: 465;
+        --font-weight-title-text-card: 785;
         --accent-color: #00CC14;
         --backgound-color: #000000;
         --gradient-line-color: #000;
