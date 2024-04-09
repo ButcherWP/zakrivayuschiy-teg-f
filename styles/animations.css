@@ -98,3 +98,8 @@
    .like-icon.is-liked .sparks {
      animation: sparks-boom 0.3s 0.3s ease-in reverse;
     }
+
+   .contour {
+     fill: var(--contour-heart);
+     transition: 0.1s;
+    }
